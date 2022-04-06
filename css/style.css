@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-size: 62.5%;
+  border: 1px solid #fff;
+  margin-top: 4rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  margin: 4rem 12rem 0 12rem;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nail {
+  height: 10.5rem;
+  width: 8.5rem;
+  background-color: #fff;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  margin: 1.5rem;
+  border: 1px solid #fff;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.container-colors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+button {
+  /* background-color: blue; */
+  border: none;
+  color: #fff;
+  border-radius: 2.4rem;
+  height: 4rem;
+  width: 4rem;
+  margin: 1rem;
+}
+
+img {
+  padding-top: 1rem;
+}
+
+#blue {
+  background-color: #0d6efd;
+}
+
+#indigo {
+  background-color: #6610f2;
+}
+
+#purple {
+  background-color: #6f42c1;
+}
+
+#pink {
+  background-color: #d63384;
+}
+
+#red {
+  background-color: #dc3545;
+}
+
+#orange {
+  background-color: #fd7e14;
+}
+
+#yellow {
+  background-color: #ffc107;
+}
+
+#green {
+  background-color: #198754;
+}
+
+#teal {
+  background-color: #20c997;
+}
+
+#cyan {
+  background-color: #0dcaf0;
+}
+
+#gray {
+  background-color: #adb5bd;
+}
+
+#black {
+  background-color: #000;
+}
